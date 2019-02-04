@@ -1,4 +1,5 @@
 ﻿using System;
+using ClassLibrary1;
 
 namespace ConsoleApp1
 {
@@ -6,8 +7,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var res = Resource1.ResourceManager.GetObject("avatar");
-            Console.WriteLine("Hello World!");
+            var test = Stuff.GetMyStuff("ClassLibrary1.Resources.avatar.png");
         }
     }
 }
